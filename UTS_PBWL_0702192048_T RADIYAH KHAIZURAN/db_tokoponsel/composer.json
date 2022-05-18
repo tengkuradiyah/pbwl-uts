@@ -1,0 +1,20 @@
+{
+    "name": "elitebook/db_tokoponsel",
+    "description": "Untuk inisialisasi dan dependency sistem",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Elitebook\\DbTokoponsel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "T RADIYAH KHAIZURAN",
+            "email": "radiyahkhaizuran@gmail.com"
+        }
+    ],
+    "require": {
+        "php-activerecord/php-activerecord": "^1.2"
+    }
+}
